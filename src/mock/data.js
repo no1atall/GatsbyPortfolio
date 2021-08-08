@@ -31,6 +31,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'simurgh.PNG',
+    title: 'Simurgh Restaurant',
+    info:
+      'This is a website built for a local restaurant. It uses NextJS and tailwindCSS to build out this static site.',
+    info2:
+      'This project taught me more about NextJS, speifically regarding image loading and routing. I also learned how use tabs to efficiently display data. I also found the exerience of working with a client to meet their expecations, goals, and needs to be an invaluable experince.',
+    url: 'https://simurgh.netlify.app/',
+    repo: 'https://github.com/no1atall/simurgh', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Contact-Form.png',
     title: 'Material UI Contact Form',
     info:
